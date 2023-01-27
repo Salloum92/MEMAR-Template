@@ -1253,7 +1253,7 @@ footer .container .email {
   }
   footer .container .email .sub {
     position: absolute;
-    right: 116px !important;
+    right: 70px !important;
     bottom: -50px;
   }
   footer .container .email .mail {
@@ -1262,6 +1262,13 @@ footer .container .email {
   footer .container .big-box {
     flex-direction: column;
     text-align: center;
+  }
+  footer .container .socila-info {
+    flex-direction: column;
+  }
+  footer .container .copy {
+    text-align: center;
+    flex-direction: column;
   }
 }
 footer .container .email .mail {
@@ -1306,8 +1313,7 @@ footer .container .big-box {
 footer .container .big-box img {
   width: 100px;
 }
-footer .container .big-box .boxes {
-}
+
 footer .container .big-box .boxes h3 {
   margin-bottom: 20px;
 }
@@ -1321,6 +1327,9 @@ footer .container .socila-info {
   align-items: center;
   justify-content: space-between;
   margin: 20px 0 0 0;
+}
+footer .container .copy {
+  display: flex;
 }
 /* End Footer */
 /* Start Animation */
